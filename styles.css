@@ -12,7 +12,7 @@ body{
     height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
     font-size: 12px;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
 
