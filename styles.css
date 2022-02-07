@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;    
+}
+
+body{
+    background-image:url("/images/pattern-background-desktop.svg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 12px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+
+}
+
+#hero{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.main_card{
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.content{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    padding: 30px 5px 30px 5px;
+    margin: 10px;
+}
+
+#music_icon{
+    width: 35px;
+    height: min-content;
+    margin-right: -40px;
+}
+
+.select_plan{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    background-color: hsl(225, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px; 
+    font-size: 13px;  
+}
+
+.changeBtn{
+    position: relative;
+    top: 12px;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.changeBtn:hover{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    cursor: pointer;
+}
+
+button{
+    background-color: hsl(245, 75%, 52%);
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    border-style: none;
+    font-weight: 700;
+    font-size: 13px;
+    box-shadow: 5px 10px 30px hsl(224, 23%, 70%);
+}
+
+button:hover{
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.cancel_order{
+    padding-top: 20px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.cancel_order:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+.plan_contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.plan_contents span{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
